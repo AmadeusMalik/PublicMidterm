@@ -1,0 +1,200 @@
+body {
+  margin-right: 4.5%;
+  background-image: url(images/kennyg2.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  max-width: 1400px;
+  min-width: 440px;
+  font-weight: 500;
+}
+p{
+  font-size: 17px;
+}
+nav {
+  background: none;
+  height: 80px;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 50px;
+  padding-bottom: 20px;
+}
+nav h2 {
+  margin-left: 200px;
+  color:#0A369D;
+  font-weight: 700;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+
+
+.button-52 {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  -webkit-user-select: none;
+  user-select: none;
+  touch-action: manipulation;
+  text-decoration: none;
+  color: #CFDEE7;
+  font-size: 15px;
+}
+
+.button-52:after {
+  content: "";
+  background-color: #0A369D;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button-52:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button-52 {
+    padding: 13px 50px 13px;
+  }
+}
+
+  
+  
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px 100px 0;
+  width: 50%;
+  margin-top: 50%;
+  max-width: 600px;
+  padding: 30px;
+  border-radius: 10px;
+}
+main div {
+  display: flex;
+  justify-content: center;
+  align-items: middle;
+  position: relative;
+  padding-right: 2%;
+  padding-left: 2%;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  justify-content: space-evenly;
+  background:#CFDEE7;
+  box-shadow: -7px 10px 5px 0px #2222228e;
+  border-radius: 9px;
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0.1s;
+  z-index: 1;
+
+}
+main div:hover{
+  transform: translateY(-8px);
+}
+
+main div > img {
+  height: 200px;
+  margin-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.app{
+  background-color:#CFDEE7;
+  margin: 100px auto 0;
+  width: 40%;
+  max-width: 600px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: -7px 10px 5px 0px #2222228e;
+  border: 1px solid #2222228e;
+}
+.app h1{
+  font-size: 25px;
+  color: #0A369D;
+  font-weight:600;
+  border-bottom: 1px solid #333;
+  padding-bottom: 30px;
+  padding-left: 15%;
+}
+.quiz{
+  padding:20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.quiz h2{
+  font-size: 20px;
+  color: #0A369D;
+  font-weight: 600;
+}
+.btn{
+  background:#CFDEE7;
+  font-weight: 500;
+  width: 250px;
+  border: 1px solid #222;
+  padding: 10px;
+  margin: 10px 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s;
+  border-radius: 4px;
+}
+.btn:hover:not([disabled]){
+background:#5E7CE2 ;
+color: #fff;
+}
+.btn:disabled{
+  cursor: no-drop;
+}
+#next-btn{
+  background: #001e4d;
+  color: #fff;
+  font-weight: 500;
+  width: 150px;
+  border: 0;
+  padding: 10px;
+  margin: 20px auto 0;
+  cursor: pointer;
+  border-radius: 4px; 
+  display: block;
+  display: none;
+}
+#answer-buttons{
+  display: flex;
+  flex-direction: column;
+}
+.incorrect{
+  background: rgba(155, 20, 20, 0.466);
+}
+.correct{
+  background: rgba(4, 128, 0, 0.445);
+}
+
+
+
+
