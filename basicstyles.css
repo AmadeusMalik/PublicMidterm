@@ -3,14 +3,14 @@ body {
   background-image: url(images/kennyg2.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
-  max-width: 1400px;
-  min-width: 440px;
   font-weight: 500;
+  margin: 0;
+
 }
 p{
   font-size: 17px;
@@ -33,7 +33,6 @@ nav h2 {
   color:#0A369D;
   font-weight: 700;
   font-size: 30px;
-  padding-bottom: 20px;
 }
 
 
@@ -81,19 +80,17 @@ nav h2 {
 
   
   
-main {
+#main {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin: 100px 100px 0;
-  width: 50%;
-  margin-top: 40%;
-  max-width: 600px;
   padding: 30px;
   border-radius: 10px;
+  height: 100%;
+  margin-top:50px ;
 }
-main div {
+#main div {
   display: flex;
   justify-content: center;
   align-items: middle;
@@ -106,18 +103,13 @@ main div {
   background:#CFDEE7;
   box-shadow: -7px 10px 5px 0px #2222228e;
   border-radius: 9px;
-  transition-property: transform;
-  transition-duration: 0.3s;
-  transition-timing-function: ease;
-  transition-delay: 0.1s;
-  z-index: 1;
 
 }
-main div:hover{
+#main div:hover{
   transform: translateY(-8px);
 }
 
-main div > img {
+#main div > img {
   height: 200px;
   margin-right: 10px;
   padding-top: 10px;
